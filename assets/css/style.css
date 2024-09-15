@@ -34,19 +34,33 @@ header a {
     color: inherit;
 }
 
+h1 {
+    font-family: 'oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu >li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 
 /* main */
 main {
     background-color: rgb(0, 179, 255);
     /* makes main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-}
-
-h1 {
-    font-family: 'oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 /*  footer */
