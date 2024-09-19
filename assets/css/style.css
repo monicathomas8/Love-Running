@@ -203,8 +203,8 @@ hr {
 
 /* Sign up page */
 #sign-up {
-    background-image: url("../images/signup-image.webp");
-    background-size: cover;
+    background: url("../images/signup-image.webp") center center / cover;
+
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
@@ -344,9 +344,9 @@ hr {
 
     #sign-up-form {
         max-width: 400px;
-        position: absolute;
+        position: relative;
         left: 10%;
-        top: 150px;
+
     }
 
     .text-input:hover {
