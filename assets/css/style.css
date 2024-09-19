@@ -1,7 +1,6 @@
 /*google font import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-
 /* asterisk wildcard selector to override defult styles added by the browser*/
 *{
     padding: 0%;
@@ -210,6 +209,7 @@ hr {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
+
 
 #sign-up-form {
     padding: 30px;
